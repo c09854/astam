@@ -5,7 +5,7 @@ development:
   database: astam_development
   pool: 5
   username: root
-  password: 
+  password: minicooper 
   host: localhost
 
 # Warning: The database defined as "test" will be erased and
@@ -17,7 +17,7 @@ test:
   database: astam_test
   pool: 5
   username: root
-  password: 
+  password: minicooper
   host: localhost
 
 producton:
@@ -26,5 +26,5 @@ producton:
   database: astam_production
   pool: 5
   username: root
-  password: 
+  password: minicooper
   host: localhost

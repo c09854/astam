@@ -1,0 +1,39 @@
+<style type="text/css">
+body{
+  background-color: #DF3A01;
+}
+
+ul {
+list-style-type: none ;
+margin: 0px 0px 0px 0px ;
+padding: 0px 0px 0px 0px ;
+}
+li {
+margin: 0px 0px 0px 0px ;
+}
+footer{
+  margin-top:10px;
+  font-weight: bold;
+}
+
+.container{
+  position:relative;
+}
+.navigation{
+    position:absolute;
+    right:0;
+    width:200px;
+    top:50%; height:10em; margin-top:-5em;
+}
+.angView{
+    width: 1350px;
+    float: left;
+    height:500px;
+}
+.clear { clear: both;}
+
+.welcome_container{
+  width: 600px;
+}
+
+</style>
