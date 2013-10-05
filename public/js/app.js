@@ -7,4 +7,8 @@ var app = angular.module('countdown-app', [])
     templateUrl: 'views/main.html',
     controller: 'MainCtrl'
   })
+  .when('/contact', {
+    templateUrl: 'views/contact.html',
+    controller: 'ContactController'
+  })
 }]);
