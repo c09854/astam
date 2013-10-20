@@ -1,0 +1,21 @@
+<div id="container">
+    <div class="row">
+        <div class="eight columns">
+            <div class="angView" ng-view></div>
+
+            <div class="lang-nav">
+                <button id="language"
+                ng-controller="LanguageController"
+                ng-click="changeLanguage(chosenLanguage)">{{chosenLanguage}}</label>
+            </div>
+        </div>
+        <div class="four columns">
+                <ul>
+                    <li><a href="#">About</a></li>
+                    <li ><a href="#/contact">Contact</a></li>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">News</a></li>
+                </ul>
+        </div> 
+    </div>
+</div>

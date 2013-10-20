@@ -1,13 +1,13 @@
 'use strict';
-var app = angular.module('countdown-app', [])
+var app = angular.module('astam-app', [])
 .config(['$routeProvider', function($routeProvider) {
   $routeProvider
   .when('/', {
-    templateUrl: 'views/main.html',
+    templateUrl: '../assets/main.html',
     controller: 'MainCtrl'
   })
   .when('/contact', {
-    templateUrl: 'views/contact.html',
+    templateUrl: '../assets/contact.html',
     controller: 'ContactController'
   })
 }]);
